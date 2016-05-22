@@ -1,0 +1,41 @@
+body{margin:auto;padding:0px;text-align: center;width:960px;height:auto;}
+.logo{width: 960px;height: 95px;text-align: left;}
+.logo_1{width:380px;height:95px;float: left;background-image: url("../images/logo-1.jpg");}
+.logo_2{width: 370px;height: 95px;float: left;color: red;line-height: 80px;font-size: 25px;font-weight: bold;}
+.logo_3{width: 170px;height: 95px;float: right;font-size: 12px;}
+.logo_3 p{color: #C3C9CA;line-height: 50px;margin-left: 3px;}
+.logo_3 p a{color: red;text-decoration: none;font-size: 13px;}
+.logo_3 p a:HOVER {text-decoration: underline;}
+
+/**
+*导航
+*/
+.nva{width: 960px;height: 30px;background: #3BB7EA;}
+.nva_1{width: 700px;height: 30px;float: left;}
+.nva_2{width: 250px;height: 30px;float: left;}
+.nva_2 p{line-height: 30px;margin: 0px;padding: 0px;color: #FFFFFF;font-size: 12px;}
+
+
+/**
+*左边菜单
+*/
+
+.mian_left{width: 200px;height: 500px;float:left;border: 2px solid #3BB7EA}
+
+.top-font01 {font-family: "宋体";font-size: 12px;color: #448CCB;text-decoration: none;}
+.left-table01 {border-top-width: 2px;border-top-style: solid;border-top-color: #B8C9D6;margin-left: 0px;}
+.left-table02 {margin-top: 8px;margin-bottom: 8px;font-family: "宋体";font-size: 12px;color: #555555;text-decoration: none;}
+.left-table03 {margin-top: 6px;font-family: "宋体";font-size: 12px;color: #555555;text-decoration: none;background-image: url(../images/nav02.gif);}
+a.left-table03:hover {background-image: url(../images/nav03.gif);}
+.left-table04 {font-family: "宋体";font-size: 12px;color: #555555;text-decoration: none;background-image: url(../images/nav03.gif);margin-top: 6px;}
+.left-font01 {font-family: "宋体";font-size: 12px;color: #448CCB;text-decoration: none;filter: DropShadow(Color=#FFFFFF, OffX=1, OffY=1);}
+a.left-font01:hover {font-family: "宋体";font-size: 12px;color: #FF0000;text-decoration: underline;filter: DropShadow(Color=#FFFFFF, OffX=1, OffY=11,);}
+.left-font02 {font-family: Tahoma;font-size: 11px;font-weight: bold;color: #448CCB;text-decoration: none;filter: DropShadow(Color=#FFFFFF, OffX=1, OffY=1);}
+.left-font03 {font-family: "宋体";font-size: 12px;color: #555555;text-decoration: none;width: 140px;display: inline-table;height: 30px;line-height: 28px;cursor: pointer;}
+a.left-font03:hover {font-family: "宋体";font-size: 12px;color: #3BB7EA;}
+
+
+/**
+*右边内容页
+*/
+.mian_right{width: 752px;height: 500px;border: 2px solid #3BB7EA;float: right;}
