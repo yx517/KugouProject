@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kugou.dao.SongDao">
+	<sql id="AllSongs">
+		select
+		SongID,SongName,SongSinger,SongImg,SongWords,SongURL
+	</sql>
+	<resultMap type="Song" id="SongResultMap">
+		<result column="SongID" property="SongID" />
+		<result column="SongName" property="SongName" />
+		<result column="SongSinger" property="SongSinger" />
+		<result column="SongImg" property="SongImg" />
+		<result column="SongWords" property="SongWords" />
+		<result column="SongURL" property="SongURL" />
+		<!-- <result column="AreaID" property="AreaID"/> -->
+	</resultMap>
+	<!-- 查询所有 -->
+	<select id="selectAllSongs" resultMap="SongResultMap">
+		<include refid="AllSongs" />
+		from song
+	</select>
+</mapper>

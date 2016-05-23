@@ -421,19 +421,17 @@
 					<div class="party_1_2">
 						<div class="party_1_2_1">
 							<ul>
-								<c:forEach items="${songRadio}" var="song" begin="0"  end="14" varStatus="status">
-								
-									<li>
-									
-										<a href="#" title="${song.songWords}">
-											<span class="party_1_2_1_1">
-												<img src="${song.songImg}"/>
+								<c:forEach items="${song}" var="song" begin="0"  end="14" varStatus="status">
+								<li>
+										<a href="#" title="${song.songWords }">
+											<span class="party_1_2_1_1" style="display: block;">
+												<img src="${song.songImg }"/>
 											</span>
-											<em>${song.songName}
+											<em>${song.songName }
 												<b></b>
 											</em>
-											<span class="party_1_2_1_2">
-												${song.songSinger}
+											<span class="party_1_2_1_2" style="display: block;">
+												${song.songSinger }
 											</span>
 										</a>
 									</li>
